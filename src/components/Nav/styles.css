@@ -1,6 +1,9 @@
+/* NAV */
+
 nav {
   background-color: rgb(22, 46, 77);
   color: whitesmoke;
+  font-family: 'Kurale', serif;
 }
 
 .nav__container {
@@ -19,8 +22,8 @@ nav {
 }
 
 .nav__container--img img {
-  width: 6em;
-  height: 6em;
+  width: 8em;
+  height: 8em;
   padding: 0.5em;
 }
 

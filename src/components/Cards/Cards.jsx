@@ -1,3 +1,5 @@
+/* CARDS */
+
 import houseofdragon from '../../img/house-of-dragon.jpg';
 import bettercallsaul from '../../img/better-call-saul.jpg';
 import strangerthings from '../../img/stranger-things.jpg';
@@ -6,6 +8,7 @@ import dahmer from '../../img/dahmer.jpg';
 import moonknight from '../../img/Moon-knight.jpg';
 import peakyblinders from '../../img/peaky-blinders.jpg';
 import msmarvel from '../../img/ms-marvel.jpg';
+import obiwankenobi from '../../img/obi-wan-kenobi.jpg';
 import './styles.css'
 
 const Cards = () => {
@@ -121,6 +124,20 @@ const Cards = () => {
                     </div>
                     <div className="section__card--body">
                         <h4 className="section__card--title">Ms Marvel</h4>
+                        <p className="section__card--text">
+                            <ul>
+                                <li>Año: 2022</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div className="section__card">
+                    <div className="section__card--imagen">
+                        <img src={obiwankenobi} alt="Obi-wan-kenobi" />
+                    </div>
+                    <div className="section__card--body">
+                        <h4 className="section__card--title">Obi Wan Kenobi</h4>
                         <p className="section__card--text">
                             <ul>
                                 <li>Año: 2022</li>

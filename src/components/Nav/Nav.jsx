@@ -8,14 +8,13 @@ const Nav = () => {
             <div className="nav__container--brand>">
                 <div className="nav__container--img">
                 <img src={logo} alt="logo" />
-                    <h3>Series Max</h3>
                 </div>
 
             </div>
             <div class="nav__menu">
                 <ul>
                     <li>Últimos estrenos</li>
-                    <li>Clásicos</li>
+                    <li>Mejores series 2022</li>
                     <li>Ranking</li>
                 </ul>
             </div>
